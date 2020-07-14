@@ -5,7 +5,7 @@ function main()
     %-------------------------load a dataset---------------------------
     %------------------------- Pima-Indian ----------------
 
-    MainData = csvread('Diabet.csv');
+    MainData = csvread('Data Sets/Diabet.csv');
 
     dataSet = MainData(:,1:(end-1));
     classes = MainData(:,end);
